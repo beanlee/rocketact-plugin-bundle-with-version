@@ -8,7 +8,7 @@ const {
   ensureTrailingSlash,
 } = require("rocketact-dev-utils/dist/ensureTrailingSlash");
 
-const { appPackageJson} = require('rocketact-dev-utils/dist/paths')
+const { appPackageJson} = require('rocketact-dev-utils/dist/paths');
 const appRoot = () => fs.realpathSync(process.cwd());
 const resolveToAppRoot = (p) => path.resolve(appRoot(), p);
 
